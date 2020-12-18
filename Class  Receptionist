@@ -1,0 +1,19 @@
+package hotel0;
+
+public class Receptionist extends Employee {
+	
+	public Receptionist(String id,String name,String pss){  
+        emplo_count++;
+      this.setName(name);
+      this.setId(id);
+      this.setPassword(pss);
+       
+    }
+    @Override //Because the function is abstract
+     public  void meue(){
+        
+        
+        
+    }
+
+}
